@@ -1,0 +1,1 @@
+"use client";import{useMousePosition}from"@/hooks/use-mouse-position";export function CursorGlow(){const{x,y}=useMousePosition();return<div className="pointer-events-none fixed inset-0 z-50" aria-hidden="true"><div className="absolute h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/8 blur-[100px]" style={{left:x,top:y}}/></div>}
