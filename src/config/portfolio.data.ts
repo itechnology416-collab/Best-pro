@@ -47,4 +47,4 @@ export const portfolioData = {
       {label:"WhatsApp",href:"https://wa.me/15551234567?text=Hello%20Alex",icon:"Whatsapp"},
     ],
   },
-| as const;
+} as const;
